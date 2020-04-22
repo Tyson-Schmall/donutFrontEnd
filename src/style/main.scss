@@ -1,28 +1,21 @@
-html {
-    font-size: 62.5%; // 1rem is 10px
-}
+@import "./homepage.scss";
+@import "./main.scss";
+@import "./navigation-wrapper.scss";
+@import "./product-pages.scss";
+@import "./button.scss";
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'montserrat';
-}
 
 body {
-    overflow-x: hidden;
-    font-weight: normal;
+ margin: 0;
+ padding: 0;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxaqmiAsGqwq12EGVI9pNnlefVan-Lug90C6O_MnuXTBGnOLL2&usqp=CAU")
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
+    image(opacity: 0.5;)
 }
 
 .app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
+    
 }
+
+
+
