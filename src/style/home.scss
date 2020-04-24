@@ -1,18 +1,29 @@
 .donut-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #000;
+    height: 95px;
+    width: 100%;
     align-items: center;
     justify-items: center;
+    padding-top: 0px;
+
+   
+
+    }
 
     .donut-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        .donut-image {
-            width: 20%vw;
-            height: 20%vh;
-            object-fit: cover;
+
+        .logo {
+            width: 125px;
+            height: 125px;
+        // .donut-image {
+        //     width: 20%vw;
+        //     height: 20%vh;
+        //     object-fit: cover;
         }
     }
-}

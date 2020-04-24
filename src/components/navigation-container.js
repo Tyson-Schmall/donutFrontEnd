@@ -13,9 +13,9 @@ export default class NavigationContainer extends Component {
     render() {
         return (
             <div className="navigation-wrapper">
-                <div className='page-title'>
+                {/* <div className='page-title'>
                     <p>Welcome to Hole Foods! Your local donut shop.</p>
-                </div>
+                </div> */}
 
                 <div className='logo'>
                     <img src={holeLogo} />

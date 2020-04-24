@@ -8,7 +8,7 @@ const Donut = props => {
             <img className="donut-img" src={"https://source.unsplash.com/random"} alt="Donut Here" />
                     
             <div>
-                <p>{name}</p>
+                <h2>{name}</h2>
             </div>
 
             <div>
